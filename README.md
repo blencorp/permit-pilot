@@ -2,10 +2,6 @@
 
 ## AI-Powered Multi-Agent System for Universal Government Permissioning
 
----
-
-## Executive Summary
-
 PermitPilot is a universal multi-agent AI platform that automates government permission processes across any regulatory domain. The system transforms bureaucratic workflows—from business licenses to event permits to health certifications—from weeks-long manual processes into intelligent, automated experiences that complete in days.
 
 **Core Innovation:** Unlike traditional form-filling assistants, PermitPilot's specialized AI agents actually process and approve applications like government staff would, handling everything from document analysis to multi-department coordination to autonomous permit issuance.
