@@ -2,6 +2,61 @@
 
 ## AI-Powered Multi-Agent System for Universal Government Permissioning
 
+## Table of Contents
+
+- [The Problem](#the-problem)
+  - [Universal Pain Points in Government Permissioning](#universal-pain-points-in-government-permissioning)
+  - [The Scope of the Challenge](#the-scope-of-the-challenge)
+- [The Solution](#the-solution)
+  - [Core Architecture](#core-architecture)
+  - [How It Works Across Different Domains](#how-it-works-across-different-domains)
+- [System Architecture](#system-architecture)
+  - [High-Level Design](#high-level-design)
+  - [Multi-Agent Workflow](#multi-agent-workflow)
+- [Agent Specifications](#agent-specifications)
+  - [1. Supervisor Agent](#1-supervisor-agent)
+  - [2. Helper Agent](#2-helper-agent)
+  - [3. Review Agent](#3-review-agent)
+  - [4. Approval Agent](#4-approval-agent)
+- [Permission Template System](#permission-template-system)
+  - [What Templates Define](#what-templates-define)
+  - [Template Example: Food Truck Permit](#template-example-food-truck-permit)
+  - [Why Templates Enable Universal Scaling](#why-templates-enable-universal-scaling)
+- [Core Platform Features](#core-platform-features)
+  - [1. Universal Document Intelligence](#1-universal-document-intelligence)
+  - [2. Intelligent Requirement Determination](#2-intelligent-requirement-determination)
+  - [3. Proactive Guidance System](#3-proactive-guidance-system)
+  - [4. Multi-Department Coordination](#4-multi-department-coordination)
+  - [5. Conversational Interface](#5-conversational-interface)
+  - [6. Transparency & Trust](#6-transparency--trust)
+  - [7. Autonomous Approval Engine](#7-autonomous-approval-engine)
+- [Data Model](#data-model)
+  - [Shared Agent State](#shared-agent-state)
+  - [Permission Template Schema](#permission-template-schema)
+- [Technology Stack](#technology-stack)
+  - [Frontend](#frontend)
+  - [Backend](#backend)
+  - [Infrastructure](#infrastructure)
+  - [Documentation & Developer Experience](#documentation--developer-experience)
+- [User Experience](#user-experience)
+  - [Application Journey](#application-journey)
+  - [Visual Design Principles](#visual-design-principles)
+- [Competitive Advantages](#competitive-advantages)
+  - [vs. Traditional Form-Filling Tools](#vs-traditional-form-filling-tools)
+  - [vs. Government Online Portals](#vs-government-online-portals)
+  - [vs. Point Solutions](#vs-point-solutions)
+  - [vs. Generic AI Chatbots](#vs-generic-ai-chatbots)
+- [Extension Opportunities](#extension-opportunities)
+  - [Near-Term Enhancements](#near-term-enhancements)
+  - [Long-Term Vision](#long-term-vision)
+- [Technical Implementation Notes](#technical-implementation-notes)
+  - [Agent Implementation](#agent-implementation)
+  - [Template System](#template-system)
+  - [LangGraph Workflow](#langgraph-workflow)
+- [Conclusion](#conclusion)
+
+---
+
 PermitPilot is a universal multi-agent AI platform that automates government permission processes across any regulatory domain. The system transforms bureaucratic workflows—from business licenses to event permits to health certifications—from weeks-long manual processes into intelligent, automated experiences that complete in days.
 
 **Core Innovation:** Unlike traditional form-filling assistants, PermitPilot's specialized AI agents actually process and approve applications like government staff would, handling everything from document analysis to multi-department coordination to autonomous permit issuance.
